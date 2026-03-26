@@ -1,0 +1,5 @@
+{
+  "name": "symlink-test",
+  "version": "0.1.0",
+  "description": "Test plugin with .claude/ as plugin root"
+}

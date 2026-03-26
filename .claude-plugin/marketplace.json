@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "symlink-plugin-test",
-  "description": "Test marketplace — plugin root inside .claude/",
+  "description": "Test marketplace — plugin root inside claude/",
   "owner": {
     "name": "Maisa",
     "url": "https://github.com/maisaai"
@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "symlink-test",
-      "description": "Test plugin with .claude/ as plugin root",
-      "source": "./plugins/symlink-test/.claude",
+      "description": "Test plugin with claude/ as plugin root",
+      "source": "./plugins/symlink-test/claude",
       "category": "test"
     }
   ]
